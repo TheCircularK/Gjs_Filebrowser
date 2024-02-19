@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-	<gresource prefix="/org/example/filebrowser/js">
+	<gresource prefix="/org/thecirculark/filebrowser/js">
 		<file>main.js</file>
 	  <file>Application.js</file>
+	  <file>Window.js</file>
+	  <file>WelcomeWidget.js</file>
 	</gresource>
 </gresources>
 

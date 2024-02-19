@@ -5,7 +5,7 @@ project(
   meson_version: '>= 0.59.0'
   )
 
-APP_ID = 'org.example.filebrowser'
+APP_ID = 'org.thecirculark.filebrowser'
 
 gnome = import('gnome')
 

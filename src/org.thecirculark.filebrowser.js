@@ -10,7 +10,7 @@ imports.package.init({
 });
 
 const loop = new GLib.MainLoop(null, false);
-import('resource:///org/example/filebrowser/js/main.js')
+import('resource:///org/thecirculark/filebrowser/js/main.js')
 	.then((main) => {
 		GLib.idle_add(GLib.PRIORITY_DEFAULT_IDLE, () => {
 			loop.quit();
